@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+
+    tools:context="com.example.battosai.tesaplikasi001.MainActivity">
+
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@mipmap/ic_cross"
+                android:id="@+id/wisata"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Wisata"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <Button
+                android:id="@+id/kuliner"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/kuliner"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/ic_pisau" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kuliner"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/ic_info"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/about"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="About"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/event"
+                android:background="@mipmap/ic_kalender"
+               />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Event"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/ic_tes"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/penginapan"
+               />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Penginapan"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/ic_exit"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/exit"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exit"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

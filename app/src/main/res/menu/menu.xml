@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Navigasi"
+        android:id="@+id/ButtonWisata"
+        android:icon="@mipmap/ic_navigation_black_24dp"
+        />
+
+</menu>

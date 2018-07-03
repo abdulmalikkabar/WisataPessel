@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.battosai.tesaplikasi001">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".splash"
+            android:label="@string/app_name"
+            android:theme="@style/Splashscreen"
+            android:screenOrientation="portrait"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Detail.DetailWisata"
+            android:label="WISATA" />
+        <activity
+            android:name=".Detail.DetailEvent"
+            android:label="EVENT WISATA" />
+        <activity
+            android:name=".Main2ActivityEvent"
+            android:label="EVENT WISATA" />
+        <activity
+            android:name=".Main2ActivityKuliner"
+            android:label="KULINER" />
+        <activity
+            android:name=".Detail.DetailKuliner"
+            android:label="KULINER" />
+        <activity
+            android:name=".Main2ActivityWisata"
+            android:label="WISATA" />
+        <activity
+            android:name=".Main2ActivityPenginapan"
+            android:label="PENGINAPAN" />
+        <activity
+            android:name=".Detail.DetailPenginapan"
+            android:label="PENGINAPAN" />
+        <activity
+            android:name=".Main2ActivityAbout"
+            android:label="@string/title_activity_main2_about" />
+        <activity android:name=".MainActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+
+    tools:context="com.example.battosai.tesaplikasi001.MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_light_background">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Aplikasi Wisata Pesisir Selatan adalah panduan wisata bagi anda yang berwisata di Kabupaten Pesisir Selatan. Anda akan mendapatkan informasi seputar wisata, event wisata, kuliner dan penginapan"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_below="@+id/kuliner"
+                android:layout_marginTop="10dp"
+                android:layout_width="193dp"
+                android:layout_height="100dp"
+                android:id="@+id/kuliner"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kontak"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="109dp"
+                android:text="Email : bengcaramel@yahoo.com"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="198dp"
+                android:id="@+id/event"
+                android:background="@mipmap/ic_logo"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ver 1.0"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2017"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Create by Abdul malik akbar"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="end"/>
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="153dp"
+                android:layout_gravity="end"
+                android:background="@mipmap/ic_de" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
